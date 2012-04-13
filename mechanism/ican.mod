@@ -57,7 +57,7 @@
                                      gbar    = 0.0001 (mho/cm2)
                                      beta    = 0.0001 (1/ms) 	 	: backward rate constant
 				     cac     = 0.0004 (mM)
-				    middle point of activation fct, for ip3 as somacar, for current injection
+				    : middle point of activation fct, for ip3 as somacar, for current injection
                                      taumin  = 0.1   (ms)            	: minimal value of time constant
                 		     mystart=50 (ms)             
 		
@@ -78,7 +78,7 @@
                              }
 
                              BREAKPOINT { 
-                                     SOLVE states METHOD euler
+                                     SOLVE states METHOD cnexp
                                      
 				if (t>mystart)  {     
 				in = gbar * m*m * (v - en)
