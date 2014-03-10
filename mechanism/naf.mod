@@ -58,7 +58,7 @@ ASSIGNED {
 
 
 INITIAL {
-	rate(v)
+	rate(v, ar2)
 	m = minf
 	h = hinf
 	s = sinf
