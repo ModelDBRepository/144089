@@ -19,12 +19,12 @@ paper:
 
 ![screenshot](./screenshot.png)
 
+## Changelog
+
 20140310 An ar2 argument was added to a rate call in naf.mod so that  
 the model would work with a new version (1024) of NEURON whose C  
 compiler checks that the number of arguments in function calls matches  
 the number in the definition. The results of the simulation was  
 uneffected.
 
----
-
-2025-07-07: Converted README to Markdown.
+20250707 Converted README to Markdown.
